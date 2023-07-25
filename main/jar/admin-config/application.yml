@@ -95,7 +95,7 @@ token:
     # 令牌自定义标识
     header: Authorization
     # 令牌密钥
-    secret: abcdefghijklmnopqrstuvwxyz
+    secret: 4ca22b1226c64fd4b79fcdb9f31086e9
     # 令牌有效期（默认30分钟）
     expireTime: 30
   
