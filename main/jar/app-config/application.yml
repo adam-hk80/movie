@@ -129,3 +129,11 @@ xss:
   excludes: /system/notice
   # 匹配链接
   urlPatterns: /system/*,/monitor/*,/tool/*
+
+# ===== spring security 白名单urls===== #
+secure:
+  ignored:
+    urls: #未登录也可执行方法
+      - /app/movie/getMovieInfo
+      - /app/movie/getPlayUrl
+      - /app/getShareMsg
