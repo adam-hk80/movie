@@ -1,0 +1,10 @@
+1、sql 目录alter_20231206.sql 需要执行
+2、更新jar\admin-config\application.yml 
+     增加2个配置
+     #文件读取路径
+     readerPath: D:/deb
+     #文件已读路径
+     listPath: D:/deb
+3、更新jar\ruoyi-admin.jar
+
+重启即可
