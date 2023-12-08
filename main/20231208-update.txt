@@ -7,4 +7,8 @@
      listPath: D:/deb
 3、更新jar\ruoyi-admin.jar
 
-重启即可
+重启ruoyi-admin.jar
+
+登录系统，系统监控-->定时任务，json解析，首次部署：更多->执行一次
+
+非首次部署（迭代）状态开启，即可每小时解析一次
