@@ -1,4 +1,4 @@
-1、sql 目录alter_20231206.sql 需要执行
+1、sql 重新部署
 2、更新jar\admin-config\application.yml 
      增加2个配置
      #文件读取路径
